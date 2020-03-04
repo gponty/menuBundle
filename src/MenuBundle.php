@@ -4,7 +4,9 @@
 namespace gponty\MenuBundle;
 
 
-class MenuBundle
+use Symfony\Component\HttpKernel\Bundle\Bundle;
+
+class MenuBundle extends Bundle
 {
 
 }

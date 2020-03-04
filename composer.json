@@ -1,0 +1,22 @@
+{
+    "name": "gponty/menu-bundle",
+    "description": "Bundle de gestion de menu",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillaume Ponty",
+            "email": "g.ponty@dev-web.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/http-kernel": "^5.0",
+        "symfony/dependency-injection": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "gponty\\MenuBundle\\": "src/"
+        }
+    }
+}
